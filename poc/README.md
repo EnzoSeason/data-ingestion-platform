@@ -25,7 +25,7 @@ python -m poc.worker
 ```bash
 temporal workflow start \
  --task-queue poc-task-queue \
- --type SimpleWorkflow \
- --input '"temporal"' \
+ --type Sparkflow \
+ --input '"dummy_job.py"' \
  --namespace data_ingestion_platform
 ```
